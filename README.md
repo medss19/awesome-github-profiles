@@ -42,10 +42,14 @@
 </div>
 
 <!--Line-->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"> 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1200"> 
 
 <!-- BEFORE-GETTING-STARTED: START -->
 <h2>Before Getting Started⭐</h2>
+
+Watch the below video: 
+<a href="https://www.youtube.com/watch?v=Fl2L9bXSRy0">
+![image](https://github.com/user-attachments/assets/e558ee7d-9e59-421b-ba6d-e72e726b9aab)</a>
 
 
 ## Running in your local directory ✨
@@ -200,7 +204,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 Happy opensource and here’s to your career success! 🎉
 <br>
-### recode-hive 2025
+### re:codehive 2025
 
 [Website](https://recodehive.com/) | [Instagram](https://www.instagram.com/sanjay.viswa_/) | [LinkedIn](https://www.linkedin.com/in/sanjay-k-v/) | [Twitter](https://x.com/sanjay_kv_) | [YouTube](https://www.youtube.com/@RecodeHive)<br>
 **🔔 Don’t miss a beat!** <br>
