@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   github_auth_btn.onclick = initiateGitHubAuth;
-
+  
   // GitHub auth handler
   const handleGitHubAuth = () => {
     const params = new URLSearchParams(window.location.search);
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const { name, email } = response.user;
         localStorage.setItem('user-info', JSON.stringify({ name, email }));
         localStorage.setItem('isLoggedIn', 'true');
-        
+      
         // Clean up URL
         const cleanUrl = window.location.href.split('?')[0];
         window.history.replaceState({}, '', cleanUrl);
@@ -86,6 +86,11 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Failed to authenticate with GitHub. Please try again.");
       });
   };
+
+  // Handle GitHub auth on page load
+  if (window.location.search.includes("code")) {
+    handleGitHubAuth();
+  }
 
   // Handle GitHub auth on page load
   if (window.location.search.includes("code")) {
